@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/roxoMedio</item>
+        <item name="colorPrimaryVariant">@color/roxoEscuro</item>
+        <item name="colorOnPrimary">@color/branco</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/roxoclaro</item>
+        <item name="colorSecondaryVariant">@color/azul</item>
+        <item name="colorOnSecondary">@color/branco</item>
+
+        <!-- Background and surface colors -->
+        <item name="android:colorBackground">@color/roxoEscuro</item>
+        <item name="android:colorSurface">@color/roxoEscuro</item>
+        <item name="colorOnBackground">@color/branco</item>
+        <item name="colorOnSurface">@color/branco</item>
+
+        <!-- Error color -->
+        <item name="colorError">@color/vermelho</item>
+        <item name="colorOnError">@color/branco</item>
+    </style>
+</resources>
